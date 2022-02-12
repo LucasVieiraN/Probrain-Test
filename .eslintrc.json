@@ -4,12 +4,20 @@
         "es2021": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "prettier"
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
     "rules": {
-    }
+        "prettier/prettier": [
+          "warn",
+          {
+            "singleQuote": false,
+            "semi": false
+          }
+        ]
+      }
 }
