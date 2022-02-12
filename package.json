@@ -8,6 +8,6 @@
   },
     "scripts": {
       "test": "jest",
-      "test:watch": "jest --watchAll"
+      "test:watch": "jest --watchAll --coverage"
     }
 }
