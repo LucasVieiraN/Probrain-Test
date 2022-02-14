@@ -1,4 +1,4 @@
-const hasValueInFibonacciSequence = require('./index.js')
+import hasValueInFibonacciSequence from './index.js'
 
 test('should verify if passed value is in Fibonacci sequence', () => {
   expect(hasValueInFibonacciSequence(21)).toBe(true)

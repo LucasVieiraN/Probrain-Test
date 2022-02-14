@@ -1,4 +1,4 @@
-const multiplesOfFour = require('./index.js')
+import multiplesOfFour from './index.js'
 
 test('should return an array where multiples of four contains a sufix "pin"', () => {
   expect(multiplesOfFour(16)).toEqual(["0-pin", "4-pin", "8-pin", "12-pin", "16-pin"])

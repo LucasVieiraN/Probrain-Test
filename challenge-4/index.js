@@ -1,4 +1,4 @@
-const { IS_INVALID_NUMBER_MESSAGE } = require('../constants/index.js')
+import { IS_INVALID_NUMBER_MESSAGE }from '../constants/index.js' 
 
 function multiplesOfFour (num) {
   if (num > 1000) return IS_INVALID_NUMBER_MESSAGE
@@ -14,4 +14,4 @@ function multiplesOfFour (num) {
   return result
 }
 
-module.exports = multiplesOfFour
+export default multiplesOfFour

@@ -1,4 +1,4 @@
-const { IS_INVALID_NUMBER_MESSAGE } = require('../constants/index.js')
+import { IS_INVALID_NUMBER_MESSAGE } from '../constants/index.js'
 
 function isEvenOrOdd(num) {
   if (num > 1000) return IS_INVALID_NUMBER_MESSAGE
@@ -6,4 +6,4 @@ function isEvenOrOdd(num) {
   return num % 2 === 0 ? 'even' : 'odd'
 }
 
-module.exports = isEvenOrOdd
+export default isEvenOrOdd

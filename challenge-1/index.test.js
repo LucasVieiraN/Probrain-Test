@@ -1,4 +1,5 @@
-const isEvenOrOdd = require('./index.js');
+import isEvenOrOdd from './index.js'
+import { jest } from '@jest/globals'
 
 test('should return even if the rest from division by two is equal to zero', () => {
   expect(isEvenOrOdd(5)).not.toBe('Odd');

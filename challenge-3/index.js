@@ -1,4 +1,4 @@
-const { IS_INVALID_NUMBER_MESSAGE } = require('../constants/index.js')
+import { IS_INVALID_NUMBER_MESSAGE } from '../constants/index.js'
 
 function hasValueInFibonacciSequence(num) {
   if (num > 1000) return IS_INVALID_NUMBER_MESSAGE
@@ -12,4 +12,4 @@ function hasValueInFibonacciSequence(num) {
   return sequence.includes(num)
 }
 
-module.exports = hasValueInFibonacciSequence
+export default hasValueInFibonacciSequence

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #ebecf1 0%, #1b1c25 100%);
+  height: 100vh;
+}
+
+.list_implementation {
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+  margin-right: 100px;
+}
+
+.list_implementation select {
+  padding: 7px 5px;
+  border-radius: 4px;
+}
+
+@keyframes dropdown {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.section {
+  animation: dropdown 1s forwards;
+}
+
+.title {
+  display: flex;
+  padding: 10px;
+}
+
+.title h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.8em;
+  text-transform: uppercase;
+}
+
+.content {
+  margin-top: 100px;
+  display: flex;
+  padding: 10px;
+}
+
+.content p {
+  text-align: center;
+  margin: 0 auto;
+  width: 750px;
+}
+
+.create-div {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
+.create-div.ativo {
+  display: flex;
+}
+
+.named-implementation {
+  padding-bottom: 50px;
+}
+
+input {
+  display: flex;
+  margin: 0 auto;
+  height: 40px;
+  width: 180px;
+  padding: 5px 10px;
+}
+
+.result {
+  padding: 40px;
+}

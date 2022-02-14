@@ -1,4 +1,4 @@
-const isPrime = require('./index.js');
+import isPrime from './index.js'
 
 test('should only return prime numbers', () => {
   expect(isPrime(123)).toBe(false)
